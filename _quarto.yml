@@ -132,11 +132,7 @@ format:
     toc: true
     number-sections: false
   html:
-    format-links: false
-    other-links:
-      - text: "Завантажити PDF"
-        icon: file-pdf
-        href: index.pdf
+    format-links: true
     theme: 
       dark: darkly
       light: cosmo
