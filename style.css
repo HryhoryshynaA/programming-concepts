@@ -335,11 +335,11 @@ main.content {
 }
 
 #quarto-sidebar {
-  padding: 16px 12px !important;
+  padding: 16px 16px !important;
 }
 
 #quarto-sidebar .sidebar-menu-container {
-  padding-right: 0 !important;
+  padding-right: 4px !important;
 }
 
 #quarto-margin-sidebar {
