@@ -20,7 +20,7 @@ body.quarto-dark {
   --bg-body-decoration: rgba(255, 255, 255, 0.03);
   --fg-text:        #e6edf3;
   --fg-muted:       #848d97;
-  --accent-color:   #2e8ffe;
+  --accent-color:   #F97316;
   --border-color:   #30363d;
   --code-bg:        #161b22;
   --sections-bg:    rgba(255, 255, 255, 0.02);
@@ -122,6 +122,42 @@ code:not(pre code) {
   border-radius: 4px 4px 0 0 !important;
 }
  
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  color: var(--accent-color);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 50%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 75%);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--accent-color), transparent 80%);
+}
+
 /* ============================================================
    COMPONENTS
    ============================================================ */
@@ -252,7 +288,7 @@ div.sidebar-item-container:hover .sidebar-item-text {
   color: var(--fg-text) !important;
 }
 
-div.sidebar-item-container .sidebar-item-toggle.active {
+div.sidebar-item-container .sidebar-item-toggle {
   color: var(--accent-color) !important;
 }
 
@@ -299,7 +335,11 @@ main.content {
 }
 
 #quarto-sidebar {
-  padding: 20px !important;
+  padding: 16px 12px !important;
+}
+
+#quarto-sidebar .sidebar-menu-container {
+  padding-right: 0 !important;
 }
 
 #quarto-margin-sidebar {

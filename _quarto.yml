@@ -121,9 +121,9 @@ website:
       collapse-level: 1
       contents:
         - courses/ebd-course/modules/index.qmd 
-        # - section: "Середовище програмування. Основи Python"
-        #   contents:
-        #     - 
+        - section: "Середовище розробки. Основи Python"
+          contents:
+            - courses/ebd-course/modules/ide-variables-operations/ide-setup-ps.qmd
 
       active-modes: [courses/ebd-course]
 
