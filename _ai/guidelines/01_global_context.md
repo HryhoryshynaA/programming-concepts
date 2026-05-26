@@ -11,7 +11,7 @@
 - **Friendly & Encouraging**: The tone should be welcoming, in rare cases - slightly ironic (especially when talking about bugs). Mistakes are framed as learning opportunities (e.g., "Congratulations on your first error!").
 - **Clear & Accessible**: Avoid overly academic or dense technical jargon without immediate, simple explanations.
 - **Analogy-Driven**: Use real-world, relatable analogies (e.g., "Classes as blueprints," "Toasters and Microwaves," "Courier robots") to explain abstract concepts.
-- **Engaging**: Use emojis to break up text and create visual anchors (📚, 📌, 🛠, 👨‍💻).
+- **Engaging, but not overwhelming**: Use emojis to break up text and create visual anchors (e.g., in headers or callouts), but **do not overspam** them in the main text. Keep it professional.
 - **Avoid AI Clichés**: Do **not** use typical AI-generated over-dramatic phrases (e.g., "ти не просто пишеш скрипт на пайтон - ти будуєш розумну архітектуру", "зануримось у захопливий світ"). Keep the language natural and grounded.
 - **Avoid Meta-Comments**: Never break the "fourth wall" to explain educational choices to the students (e.g., do not say "Щоб вам було цікавіше, ми будемо розробляти..."). Treat the scenario as the baseline reality.
 - **Natural Terminology**: Avoid redundant English translations in brackets (e.g., `Дохід (Revenue)`) unless introducing a specific industry term that requires it. Do not over-explain obvious abbreviations.

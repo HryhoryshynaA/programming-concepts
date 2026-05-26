@@ -15,6 +15,12 @@ Practical sessions should follow a structured, iterative pedagogical approach:
 - Provide simple, atomic code snippets for each concept.
 - Do not overwhelm with unnecessary details.
 
+## 2.5. Warm Up (`## 🏃‍♂️ Warm Up`)
+
+- A light, introductory task placed after the Cheat Sheet.
+- The goal is to help students quickly recall concepts from the lecture before diving into complex Live Coding.
+- Typically a small syntax exercise or a very basic problem.
+
 ## 3. Iterative Learning Cycles (Topics)
 
 For each sub-topic, use the following paired structure to enforce learning:
@@ -25,12 +31,31 @@ For each sub-topic, use the following paired structure to enforce learning:
   - **Контекст**: Scenario or problem description.
   - **Вхідні дані**: Input data or starting code.
   - **Очікуваний результат**: What the code should produce.
+  - **No Solutions**: NEVER include the actual solution code in the file. The instructor will write it live.
 - **`### 🛠 Guided Practice`**:
   - Independent or loosely guided work for students to solidify the concept just introduced in Live Coding.
   - **Контекст**: Slightly modified or expanded scenario of the previous Live Coding. The approach in solution is the same, the parameters or the story is what differs.
   - **Вхідні дані**: Data or starting point.
   - **Очікуваний результат**: Expected outcome.
+  - **No Solutions**: NEVER include the actual solution code (e.g., inside a "Розв'язок" callout) in the practice file itself. The `.qmd` is for the students to solve during the session.
 
 ## 4. Progressive Difficulty
 
 Start with simple, trivial examples (e.g., creating a base class, or writing a basic function) and gradually build up to more complex interactions (e.g., composition, inheritance, recursive functions, complex logic) by the end of the module.
+
+## 5. Bug Hunter (`## 🐛 Bug Hunter`)
+
+- A dedicated section usually placed at the end of the module.
+- Contains broken code that students must analyze and fix.
+- **Format**: Must use Quarto tabsets to separate the task context from the buggy code. No solutions provided.
+  ```quarto
+  ::: {.panel-tabset}
+  ### 📝 Завдання
+  Context and what needs to be fixed.
+  
+  ### 🐛 Код з помилкою
+  ` ` `python
+  # Code with bugs
+  ` ` `
+  :::
+  ```
